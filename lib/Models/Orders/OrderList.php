@@ -167,7 +167,7 @@ class OrderList implements ModelInterface, ArrayAccess, IterableType
      */
     public function listInvalidProperties()
     {
-        $invalidProperties = parent::listInvalidProperties();
+        $invalidProperties = []; //Dont care not using this anyway
 
         return $invalidProperties;
     }
